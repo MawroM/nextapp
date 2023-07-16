@@ -1,0 +1,62 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+  min-height: 100vh;
+}
+
+.description {
+  background-color: #70717a;
+  color: #fff;
+  font-size: 0.85rem;
+  max-width: var(--max-width);
+  width: 50%;
+  z-index: 2;
+  font-family: var(--font-mono);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  border: 1px solid #fff;
+  border-radius: 0.5rem;
+}
+
+.button_google{
+  background-color: #DB4437;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  
+  
+}
+.button_facebook{
+  background-color: #3b5998;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+}
+.imput{
+  height: 2rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+}
+.image_auth{
+  width: 2rem;
+  background-color: #fff;
+  border-radius: 5rem;
+}

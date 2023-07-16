@@ -1,0 +1,12 @@
+
+.header{
+    background-color: #70717a;
+    border: solid 1px #fff;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+.navigate{
+    display: flex;
+    list-style:none;
+    gap: 1rem;
+}
