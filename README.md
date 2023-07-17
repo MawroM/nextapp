@@ -14,9 +14,13 @@ yarn dev
 pnpm dev
 ```
 
-Ingreso con 
+Ingreso con: 
+
+```bash
 USUARIO: Nextapp
+# And
 Contraseña: admin
+```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
