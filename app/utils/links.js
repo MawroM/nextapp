@@ -4,6 +4,6 @@ export default [{
   },
   {
     label: 'HOME',
-    route: '/home'
+    route: '/Home'
   },
   ]

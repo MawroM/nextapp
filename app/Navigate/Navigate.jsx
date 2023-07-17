@@ -6,11 +6,7 @@ export default function Navigate() {
     <header className={styles.header}>
       <nav>
         <ul className={styles.navigate}>
-          {links.map(({ label, route }) => (
-            <li key={route}>
-              <Link href={route}>{label}</Link>
-            </li>
-          ))}
+
         </ul>
       </nav>
     </header>

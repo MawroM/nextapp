@@ -12,7 +12,7 @@
   color: #fff;
   font-size: 0.85rem;
   max-width: var(--max-width);
-  width: 50%;
+  width: 30%;
   z-index: 2;
   font-family: var(--font-mono);
   display: flex;
@@ -20,43 +20,41 @@
   align-items: center;
   flex-direction: column;
   gap: 2rem;
-  border: 1px solid #fff;
+  border: 1px solid rgba(rgb(255, 255, 255, 0.1));
+  box-shadow: 1rem 1rem 0.5rem #888;
+
   border-radius: 0.5rem;
+}
+.button_login{
+  background-color: #888;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  
 }
 
-.button_google{
-  background-color: #DB4437;
-  border: 1px solid black;
+.button_google {
+  background-color: #db4437;
+  border: none;
   border-radius: 0.5rem;
   color: white;
-  padding: 0.5rem;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1rem;
-  
-  
-}
-.button_facebook{
-  background-color: #3b5998;
-  border: 1px solid black;
-  border-radius: 0.5rem;
-  color: white;
-  padding: 0.5rem;
+  padding: 1rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 1rem;
 }
-.imput{
+
+.imput {
   height: 2rem;
   border-radius: 0.5rem;
   width: 100%;
   text-align: center;
   background-color: #fff;
+  color: #70717a;
 }
-.image_auth{
-  width: 2rem;
+.image_auth {
+  width: 3rem;
   background-color: #fff;
   border-radius: 5rem;
 }
